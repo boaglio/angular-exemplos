@@ -1,0 +1,9 @@
+*.class
+
+# eclipse
+.classpath
+.project
+.settings/
+.svn/
+
+/target/

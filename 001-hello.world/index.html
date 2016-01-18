@@ -1,0 +1,19 @@
+<html ng-app="helloWorld">
+<head>
+<title>Hello World</title>
+<script src="../lib/angular.js"></script>
+<script type="text/javascript">
+   var app = angular.module("helloWorld",[]);
+   app.controller("helloWorldCtrl", function($scope){
+	$scope.message="Hello World do AngularJS \\o/"
+   });
+  </script>
+</head>
+<body ng-controller="helloWorldCtrl">
+ {{message}}
+
+<br/><br/>
+<hr/>
+Fonte:<a href="http://pt.slideshare.net/rodrigobranas/introduo-ao-angularjs-33776412">Introdu&ccedil;&atilde;o ao AngularJS</a>
+</body>
+</html>
