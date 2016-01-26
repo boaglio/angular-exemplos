@@ -1,0 +1,99 @@
+<html ng-app="listaTelefonica">
+<head>
+<title>Lista Telefonica</title>
+<link rel="stylesheet" type="text/css" href="../lib/bootstrap.css"/>
+<style>
+ .jumbotron { width:400px; text-align: center; margin-left: auto; margin-right: auto; margin-top: 20px}
+ .table { margin-top: 20px}
+ .selecionado { background-color:  yellow }
+ .negrito {font-weight: bold;}
+</style>
+<script src="../lib/angular.js"></script>
+<script type="text/javascript">
+   var app = angular.module("listaTelefonica",[]);
+   app.controller("listaTelefonicaCtrl", function($scope){
+	$scope.app="Lista Telefonica";
+	$scope.contatos= [
+         {nome: "Pedro",telefone:"999911111",cor:"black"},
+         {nome: "Ana",telefone:"999911133",cor:"yellow"},
+         {nome: "Maria",telefone:"999911666",cor:"red"}
+	];
+    $scope.adicionarContato = function(contato) {
+	   $scope.contatos.push(angular.copy(contato));
+	   delete $scope.contato;
+    }
+    $scope.operadoras = [
+       {nome: "Oi",codigo:14, categoria: "Celular"},
+       {nome: "Vivo",codigo:15, categoria: "Celular"},
+       {nome: "Tim",codigo:41, categoria: "Celular"},
+       {nome: "GVT",codigo:25, categoria: "Fixo"},
+       {nome: "Embratel",codigo:21, categoria: "Fixo"},
+    ];
+   $scope.classe="selecionado";   
+   $scope.apagarContatos = function(contatos) {
+    // console.log( contatos);
+    var contatosNaoSelecionados = contatos.filter( function (contato) {
+      if (!contato.selecionado) return contato;
+    });
+    console.log( contatosNaoSelecionados);
+    $scope.contatos=contatosNaoSelecionados;
+   }
+   $scope.isContatoSelecionado = function(contatos) { 
+      //console.log( contatos);
+      var selec = 
+      contatos.some (function(contato) {
+        return contato.selecionado;
+      });
+      console.log( "Selecionado ? "+selec);
+      return selec;
+   }
+
+   });
+  </script>
+</head>
+
+<body ng-controller="listaTelefonicaCtrl">
+
+ <div class="jumbotron">
+
+  <h3>{{app}}</h3>
+    {{contatos}}
+  <table class="table" ng-show="contatos.length>0">
+   <tr>
+    <th></th>
+    <th>Nome</th>
+    <th>Telefone</th>
+    <th>Operadora</th>
+    <th></th>
+   </tr>
+
+   <tr ng-class="{ 'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos">
+    <td><input type="checkbox" ng-model="contato.selecionado" /></td>
+    <td>{{contato.nome}}</td>
+    <td>{{contato.telefone}}</td>
+    <td>{{contato.operadora.nome}}</td>
+    <td><div style="width:20px;height:20px" ng-style="{'background-color':contato.cor}"
+   </tr>
+
+  </table>
+  <hr/>
+  <input type="text" ng-model="contato.nome" placeholder="Nome" class="form-control"/>
+  <input type="text" ng-model="contato.telefone" placeholder="Telefone"  class="form-control"/>
+  <select  ng-model="contato.operadora" ng-options="operadora.nome group by operadora.categoria for operadora in operadoras" class="form-control">
+   <option value="">Selecione a operadora</option>
+  </select>
+  <button ng-click="adicionarContato(contato)" ng-disabled="!contato.nome || !contato.telefone" class="btn btn-primary btn-block">Adicionar contato</button>
+  <button ng-click="apagarContatos(contatos)"  class="btn btn-danger btn-block" ng-show="isContatoSelecionado(contatos)">Apagar contatos ng-show</button>
+  <button ng-click="apagarContatos(contatos)"  class="btn btn-danger btn-block" ng-hide="!isContatoSelecionado(contatos)">Apagar contatos ng-hide</button>
+  <button ng-click="apagarContatos(contatos)"  class="btn btn-danger btn-block" ng-if="isContatoSelecionado(contatos)">Apagar contatos ng-if</button>  
+  {{contato}}
+
+ </div>
+
+<br/><br/>
+<hr/>
+Fonte:
+<a href="https://www.youtube.com/watch?v=VcF7SySRkHs&index=3&list=PL7BhFlLtk0H3kpGmwtTOFx4EMvn5_jS0H">AngularJS - #2 - Usando Diretivas - Parte 2 - Rodrigo Branas </a>
+<a href="http://pt.slideshare.net/rodrigobranas/mdulo-2-criando-componentes-reusveis-com-diretivas-angularjs">Slides</a>
+</body>
+</html>

@@ -12,15 +12,16 @@
 <script type="text/javascript">
    var app = angular.module("listaTelefonica",[]);
    app.controller("listaTelefonicaCtrl", function($scope){
-	$scope.app="Lista Telefonica";
-	$scope.contatos= [
+  $scope.app="Lista Telefonica";
+  $scope.contatos= [
          {nome: "Pedro",telefone:"999911111",cor:"black"},
          {nome: "Ana",telefone:"999911133",cor:"yellow"},
          {nome: "Maria",telefone:"999911666",cor:"red"}
-	];
+  ];
     $scope.adicionarContato = function(contato) {
-	   $scope.contatos.push(angular.copy(contato));
-	   delete $scope.contato;
+     $scope.contatos.push(angular.copy(contato));
+     delete $scope.contato;
+     $scope.contatoForm.$setPristine();
     }
     $scope.operadoras = [
        {nome: "Oi",codigo:14, categoria: "Celular"},
@@ -58,7 +59,7 @@
 
   <h3>{{app}}</h3>
     {{contatos}}
-  <table class="table ">
+  <table class="table" ng-show="contatos.length>0">
    <tr>
     <th></th>
     <th>Nome</th>
@@ -77,21 +78,31 @@
 
   </table>
   <hr/>
-  <input type="text" ng-model="contato.nome" placeholder="Nome" class="form-control"/>
-  <input type="text" ng-model="contato.telefone" placeholder="Telefone"  class="form-control"/>
-  <select  ng-model="contato.operadora" ng-options="operadora.nome group by operadora.categoria for operadora in operadoras" class="form-control">
-   <option value="">Selecione a operadora</option>
-  </select>
-  <button ng-click="adicionarContato(contato)" ng-disabled="!contato.nome || !contato.telefone" class="btn btn-primary btn-block">Adicionar contato</button>
-  <button ng-click="apagarContatos(contatos)"  class="btn btn-danger btn-block" ng-disabled="!isContatoSelecionado(contatos)">Apagar contatos</button>
+  É válido ? {{contatoForm.$valid}}
+  <form name="contatoForm">
+   <input type="text" ng-model="contato.nome" name="nome" placeholder="Nome" class="form-control" ng-required="true"/>
+   <input type="text" ng-model="contato.telefone" name="telefone" placeholder="Telefone"  class="form-control"  ng-required="true"/>
+   <select  ng-model="contato.operadora" name="operadora" ng-options="operadora.nome group by operadora.categoria for operadora in operadoras" class="form-control">
+    <option value="">Selecione a operadora</option>
+   </select>
+  </form>
+  <div ng-show="contatoForm.nome.$invalid && contatoForm.nome.$dirty" class="alert alert-danger">
+   Por favor preencha o nome 
+  </div>
+  <div ng-show="contatoForm.telefone.$invalid && contatoForm.telefone.$dirty" class="alert alert-danger">
+   Por favor preencha o telefone
+  </div>
+  <button ng-click="adicionarContato(contato)" ng-disabled="contatoForm.$invalid" class="btn btn-primary btn-block">Adicionar contato</button>
+  <button ng-click="apagarContatos(contatos)"  class="btn btn-danger btn-block" ng-if="isContatoSelecionado(contatos)">Apagar contatos</button>  
   {{contato}}
 
  </div>
+<div ng-include="'footer.html'"/>
 
 <br/><br/>
 <hr/>
 Fonte:
-<a href="https://www.youtube.com/watch?v=VcF7SySRkHs&index=3&list=PL7BhFlLtk0H3kpGmwtTOFx4EMvn5_jS0H">AngularJS - #2 - Usando Diretivas - Parte 2 - Rodrigo Branas </a>
-<a href="http://pt.slideshare.net/rodrigobranas/mdulo-2-criando-componentes-reusveis-com-diretivas-angularjs">Slides</a>
+<a href="https://www.youtube.com/watch?v=HDjpIT2TLP0&list=PL7BhFlLtk0H3kpGmwtTOFx4EMvn5_jS0H&index=4">AngularJS - #4 - Validando Formulários - Rodrigo Branas  </a>
+<a href="http://pt.slideshare.net/rodrigobranas/mdulo-5-design-strategies-angularjs">Slides</a>
 </body>
 </html>
