@@ -1,0 +1,1094 @@
+17953 execve("/usr/bin/kcalc", ["kcalc"], [/* 92 vars */]) = 0
+17953 brk(NULL)                         = 0x602000
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ae24000
+17953 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/tls/x86_64/libkdeinit5_kcalc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/tls/x86_64", 0x7ffde2adff80) = -1 ENOENT (No such file or directory)
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/tls/libkdeinit5_kcalc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/tls", 0x7ffde2adff80) = -1 ENOENT (No such file or directory)
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/x86_64/libkdeinit5_kcalc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/x86_64", 0x7ffde2adff80) = -1 ENOENT (No such file or directory)
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libkdeinit5_kcalc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/oracle/app/oracle/product/12.1.0/dbhome_1/lib", {st_mode=S_IFDIR|0777, st_size=12288, ...}) = 0
+17953 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+17953 fstat(3, {st_mode=S_IFREG|0644, st_size=322522, ...}) = 0
+17953 mmap(NULL, 322522, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f840add5000
+17953 close(3)                          = 0
+17953 open("/usr/lib64/libkdeinit5_kcalc.so", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240t\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=481272, ...}) = 0
+17953 mmap(NULL, 2576656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840a98e000
+17953 mprotect(0x7f840a9ff000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840abff000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x71000) = 0x7f840abff000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\6\2\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1676672, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840add4000
+17953 mmap(NULL, 3783096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840a5f2000
+17953 mprotect(0x7f840a784000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840a984000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x192000) = 0x7f840a984000
+17953 mmap(0x7f840a98a000, 14776, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f840a98a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5Notifications.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5Notifications.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220J\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=309456, ...}) = 0
+17953 mmap(NULL, 2405032, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840a3a6000
+17953 mprotect(0x7f840a3ef000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f840a5ee000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x48000) = 0x7f840a5ee000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5XmlGui.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5XmlGui.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@N\4\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=999424, ...}) = 0
+17953 mmap(NULL, 3095176, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840a0b2000
+17953 mprotect(0x7f840a19a000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840a39a000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe8000) = 0x7f840a39a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\306\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=492144, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840add3000
+17953 mmap(NULL, 2587552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8409e3a000
+17953 mprotect(0x7f8409eb0000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840a0b0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x76000) = 0x7f840a0b0000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5ConfigWidgets.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5ConfigWidgets.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\272\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=338344, ...}) = 0
+17953 mmap(NULL, 2433800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8409be7000
+17953 mprotect(0x7f8409c36000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8409e35000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4e000) = 0x7f8409e35000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5GuiAddons.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5GuiAddons.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\216\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=106184, ...}) = 0
+17953 mmap(NULL, 2201568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84099cd000
+17953 mprotect(0x7f84099e6000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8409be5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f8409be5000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5ConfigGui.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5ConfigGui.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\252\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=126560, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840add2000
+17953 mmap(NULL, 2226432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84097ad000
+17953 mprotect(0x7f84097ca000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84099ca000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7f84099ca000
+17953 mmap(0x7f84099cc000, 2304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f84099cc000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5I18n.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5I18n.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\177\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=339632, ...}) = 0
+17953 mmap(NULL, 2435496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840955a000
+17953 mprotect(0x7f84095ac000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84097ab000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x51000) = 0x7f84097ab000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5WidgetsAddons.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5WidgetsAddons.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340-\7\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1358016, ...}) = 0
+17953 mmap(NULL, 3453816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840920e000
+17953 mprotect(0x7f840934a000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840954a000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13c000) = 0x7f840954a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5Widgets.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5Widgets.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=6713176, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840add1000
+17953 mmap(NULL, 6716852, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8408ba6000
+17953 mmap(0x7f84091dc000, 204800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x635000) = 0x7f84091dc000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5Gui.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5Gui.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=4870040, ...}) = 0
+17953 mmap(NULL, 4892452, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84086fb000
+17953 mmap(0x7f8408b86000, 110592, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x48a000) = 0x7f8408b86000
+17953 mmap(0x7f8408ba1000, 18212, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8408ba1000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5Xml.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5Xml.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=237488, ...}) = 0
+17953 mmap(NULL, 239536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840ad96000
+17953 mmap(0x7f840adcf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x38000) = 0x7f840adcf000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5ConfigCore.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5ConfigCore.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\217\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=378208, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ad95000
+17953 mmap(NULL, 2473800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840849f000
+17953 mprotect(0x7f84084f8000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84086f8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x59000) = 0x7f84086f8000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5CoreAddons.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5CoreAddons.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\306\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=576784, ...}) = 0
+17953 mmap(NULL, 2672472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8408212000
+17953 mprotect(0x7f840829b000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840849b000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x89000) = 0x7f840849b000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5Core.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5Core.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\270\10\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=4660760, ...}) = 0
+17953 mmap(NULL, 4673100, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8407d9d000
+17953 mmap(0x7f8408202000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x465000) = 0x7f8408202000
+17953 mmap(0x7f840820f000, 11852, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f840820f000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib/gcc/x86_64-pc-linux-gnu/5.3.0/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\240\10\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1565992, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ad94000
+17953 mmap(NULL, 3675328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8407a1b000
+17953 mprotect(0x7f8407b8e000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8407d8d000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f8407d8d000
+17953 mmap(0x7f8407d99000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8407d99000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200T\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1034320, ...}) = 0
+17953 mmap(NULL, 3129592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840771e000
+17953 mprotect(0x7f840781a000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8407a19000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xfb000) = 0x7f8407a19000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib/gcc/x86_64-pc-linux-gnu/5.3.0/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0644, st_size=92320, ...}) = 0
+17953 mmap(NULL, 2188352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8407507000
+17953 mprotect(0x7f840751d000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f840771c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f840771c000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ad93000
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5WindowSystem.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5WindowSystem.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360l\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=301320, ...}) = 0
+17953 mmap(NULL, 2396968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84072bd000
+17953 mprotect(0x7f8407304000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8407503000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x46000) = 0x7f8407503000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5Codecs.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5Codecs.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\251\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=232576, ...}) = 0
+17953 mmap(NULL, 2328016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8407084000
+17953 mprotect(0x7f84070ba000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84072b9000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x35000) = 0x7f84072b9000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libX11.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libX11.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\335\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1301784, ...}) = 0
+17953 mmap(NULL, 3399000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8406d46000
+17953 mprotect(0x7f8406e7e000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840707e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x138000) = 0x7f840707e000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5X11Extras.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5X11Extras.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=11736, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ad92000
+17953 mmap(NULL, 13937, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840ad8e000
+17953 mmap(0x7f840ad91000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f840ad91000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libXtst.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libXtst.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\24\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=22696, ...}) = 0
+17953 mmap(NULL, 2118200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8406b40000
+17953 mprotect(0x7f8406b45000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8406d44000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f8406d44000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libdbusmenu-qt5.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libdbusmenu-qt5.so.2", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\213\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=200720, ...}) = 0
+17953 mmap(NULL, 2296152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840690f000
+17953 mprotect(0x7f840693e000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8406b3e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f8406b3e000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libphonon4qt5.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libphonon4qt5.so.4", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \37\2\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=507160, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ad8d000
+17953 mmap(NULL, 2603008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8406693000
+17953 mprotect(0x7f840670a000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840690a000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x77000) = 0x7f840690a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5DBus.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5DBus.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=508024, ...}) = 0
+17953 mmap(NULL, 511209, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840ad10000
+17953 mmap(0x7f840ad8a000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x79000) = 0x7f840ad8a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5Network.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5Network.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1382712, ...}) = 0
+17953 mmap(NULL, 1381972, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8406541000
+17953 mmap(0x7f840668b000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14a000) = 0x7f840668b000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5PrintSupport.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5PrintSupport.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=467320, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ad0f000
+17953 mmap(NULL, 465422, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840ac9d000
+17953 mmap(0x7f840ad0a000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6d000) = 0x7f840ad0a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5TextWidgets.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5TextWidgets.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\243\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=273000, ...}) = 0
+17953 mmap(NULL, 2368440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84062fe000
+17953 mprotect(0x7f840633d000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f840653c000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3e000) = 0x7f840653c000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5GlobalAccel.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5GlobalAccel.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000n\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=134456, ...}) = 0
+17953 mmap(NULL, 2230040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84060dd000
+17953 mprotect(0x7f84060fd000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84062fc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1f000) = 0x7f84062fc000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5IconThemes.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5IconThemes.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P1\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=247120, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac9c000
+17953 mmap(NULL, 2342704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8405ea1000
+17953 mprotect(0x7f8405edb000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84060da000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7f84060da000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5ItemViews.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5ItemViews.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PY\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=234368, ...}) = 0
+17953 mmap(NULL, 2329800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8405c68000
+17953 mprotect(0x7f8405c9e000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8405e9e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x36000) = 0x7f8405e9e000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5Auth.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5Auth.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0Px\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=77040, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac9b000
+17953 mmap(NULL, 2172464, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8405a55000
+17953 mprotect(0x7f8405a67000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8405c66000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f8405c66000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20a\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=133856, ...}) = 0
+17953 mmap(NULL, 2208944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8405839000
+17953 mprotect(0x7f8405850000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8405a4f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f8405a4f000
+17953 mmap(0x7f8405a51000, 13488, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8405a51000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libpng16.so.16", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libpng16.so.16", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PY\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=216016, ...}) = 0
+17953 mmap(NULL, 2311360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8405604000
+17953 mprotect(0x7f8405638000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8405837000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x33000) = 0x7f8405837000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libharfbuzz.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libharfbuzz.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 x\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=413208, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac9a000
+17953 mmap(NULL, 2509752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840539f000
+17953 mprotect(0x7f8405402000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8405602000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x63000) = 0x7f8405602000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320!\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=88456, ...}) = 0
+17953 mmap(NULL, 2183720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8405189000
+17953 mprotect(0x7f840519e000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f840539d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f840539d000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libGL.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/opengl/nvidia/lib/libGL.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\307\2\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=579760, ...}) = 0
+17953 mmap(NULL, 2682616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8404efa000
+17953 mprotect(0x7f8404f87000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8405187000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8d000) = 0x7f8405187000
+17953 mmap(0x7f8405188000, 3832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8405188000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac99000
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libicui18n.so.56", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libicui18n.so.56", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\245\v\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=2620080, ...}) = 0
+17953 mmap(NULL, 4718896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8404a79000
+17953 mprotect(0x7f8404cea000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8404ee9000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x270000) = 0x7f8404ee9000
+17953 mmap(0x7f8404ef9000, 304, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8404ef9000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libicuuc.so.56", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libicuuc.so.56", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220[\5\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1657304, ...}) = 0
+17953 mmap(NULL, 3763456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84046e2000
+17953 mprotect(0x7f8404866000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8404a66000, 69632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x184000) = 0x7f8404a66000
+17953 mmap(0x7f8404a77000, 7424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8404a77000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libpcre16.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libpcre16.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\26\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=415784, ...}) = 0
+17953 mmap(NULL, 2511336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840447c000
+17953 mprotect(0x7f84044e0000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84046e0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x64000) = 0x7f84046e0000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\16\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=14344, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac98000
+17953 mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8404278000
+17953 mprotect(0x7f840427a000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840447a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f840447a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libglib-2.0.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\250\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=1282760, ...}) = 0
+17953 mmap(NULL, 3380560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8403f3e000
+17953 mprotect(0x7f8404075000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8404275000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x137000) = 0x7f8404275000
+17953 mmap(0x7f8404277000, 1360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8404277000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=31432, ...}) = 0
+17953 mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8403d36000
+17953 mprotect(0x7f8403d3c000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8403f3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f8403f3c000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac97000
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\235\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=137816, ...}) = 0
+17953 mmap(NULL, 2233352, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8403b14000
+17953 mprotect(0x7f8403b35000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8403d34000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f8403d34000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-keysyms.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-keysyms.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\v\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=10048, ...}) = 0
+17953 mmap(NULL, 2105472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8403911000
+17953 mprotect(0x7f8403913000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8403b12000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f8403b12000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libXext.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libXext.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@7\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=73200, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac96000
+17953 mmap(NULL, 2169144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84036ff000
+17953 mprotect(0x7f8403710000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f840390f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f840390f000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libpulse.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libpulse.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\315\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=333416, ...}) = 0
+17953 mmap(NULL, 2427816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84034ae000
+17953 mprotect(0x7f84034fe000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84036fd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4f000) = 0x7f84036fd000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libpulse-mainloop-glib.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libpulse-mainloop-glib.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\f\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=18504, ...}) = 0
+17953 mmap(NULL, 2113848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84032a9000
+17953 mprotect(0x7f84032ad000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84034ac000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f84034ac000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac95000
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\333\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=284208, ...}) = 0
+17953 mmap(NULL, 2380016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8403063000
+17953 mprotect(0x7f84030a7000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84032a6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x43000) = 0x7f84032a6000
+17953 mmap(0x7f84032a8000, 240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f84032a8000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libssl.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\226\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0555, st_size=454296, ...}) = 0
+17953 mmap(NULL, 2549872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8402df4000
+17953 mprotect(0x7f8402e59000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8403058000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x64000) = 0x7f8403058000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libcrypto.so.1.0.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\363\5\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0555, st_size=1977128, ...}) = 0
+17953 mmap(NULL, 4087288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8402a0e000
+17953 mprotect(0x7f8402bcd000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8402dcc000, 151552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1be000) = 0x7f8402dcc000
+17953 mmap(0x7f8402df1000, 11768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8402df1000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac94000
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5SonnetUi.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5SonnetUi.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\5\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=148056, ...}) = 0
+17953 mmap(NULL, 2243400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84027ea000
+17953 mprotect(0x7f840280c000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8402a0b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7f8402a0b000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5SonnetCore.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5SonnetCore.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\221\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=139064, ...}) = 0
+17953 mmap(NULL, 2234536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84025c8000
+17953 mprotect(0x7f84025e8000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84027e8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f84027e8000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5Service.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5Service.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\303\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=614208, ...}) = 0
+17953 mmap(NULL, 2709848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8402332000
+17953 mprotect(0x7f84023c4000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84025c4000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x92000) = 0x7f84025c4000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5Completion.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5Completion.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pj\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=231080, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac93000
+17953 mmap(NULL, 2326456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84020fa000
+17953 mprotect(0x7f840212f000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f840232f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x35000) = 0x7f840232f000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5Svg.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libQt5Svg.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=349848, ...}) = 0
+17953 mmap(NULL, 351889, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840ac3d000
+17953 mmap(0x7f840ac90000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x52000) = 0x7f840ac90000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libfreetype.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libfreetype.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\23\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=816336, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac3c000
+17953 mmap(NULL, 2912368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8401e32000
+17953 mprotect(0x7f8401ef2000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f84020f1000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xbf000) = 0x7f84020f1000
+17953 mmap(0x7f84020f9000, 112, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f84020f9000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libgraphite2.so.3", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libgraphite2.so.3", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200&\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=121008, ...}) = 0
+17953 mmap(NULL, 2216376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f8401c14000
+17953 mprotect(0x7f8401c30000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f8401e2f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f8401e2f000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libGLX.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/opengl/nvidia/lib/libGLX.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300:\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=73352, ...}) = 0
+17953 mmap(NULL, 2301424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84019e2000
+17953 mprotect(0x7f84019f3000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f8401bf3000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f8401bf3000
+17953 mmap(0x7f8401bf4000, 130544, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f8401bf4000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libGLdispatch.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/opengl/nvidia/lib/libGLdispatch.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \274\2\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=818432, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac3b000
+17953 mmap(NULL, 3045904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f84016fa000
+17953 mprotect(0x7f84017b3000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84019b3000, 61440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb9000) = 0x7f84019b3000
+17953 mmap(0x7f84019c2000, 129552, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f84019c2000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libicudata.so.56", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libicudata.so.56", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\5\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=25052840, ...}) = 0
+17953 mmap(NULL, 27148344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ffd15000
+17953 mprotect(0x7f84014f8000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f84016f8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17e3000) = 0x7f84016f8000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libXau.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libXau.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\16\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=14296, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac3a000
+17953 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ffb11000
+17953 mprotect(0x7f83ffb13000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83ffd13000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f83ffd13000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libXdmcp.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\23\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=22464, ...}) = 0
+17953 mmap(NULL, 2117888, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ff90b000
+17953 mprotect(0x7f83ff910000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83ffb0f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f83ffb0f000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libpulsecommon-8.0.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/pulseaudio/tls/x86_64/libpulsecommon-8.0.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/usr/lib64/pulseaudio/tls/x86_64", 0x7ffde2adf010) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/pulseaudio/tls/libpulsecommon-8.0.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/usr/lib64/pulseaudio/tls", 0x7ffde2adf010) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/pulseaudio/x86_64/libpulsecommon-8.0.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 stat("/usr/lib64/pulseaudio/x86_64", 0x7ffde2adf010) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/pulseaudio/libpulsecommon-8.0.so", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240a\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=524064, ...}) = 0
+17953 mmap(NULL, 2620136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ff68b000
+17953 mprotect(0x7f83ff709000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83ff908000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7d000) = 0x7f83ff908000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/pulseaudio/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac39000
+17953 open("/usr/lib64/libjson-c.so.2", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`(\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=43128, ...}) = 0
+17953 mmap(NULL, 2138488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ff480000
+17953 mprotect(0x7f83ff48a000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83ff689000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f83ff689000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libKF5DBusAddons.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libKF5DBusAddons.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320f\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=68760, ...}) = 0
+17953 mmap(NULL, 2164160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ff26f000
+17953 mprotect(0x7f83ff27e000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83ff47e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f83ff47e000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libbz2.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libbz2.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\27\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=66712, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac38000
+17953 mmap(NULL, 2162056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83ff05f000
+17953 mprotect(0x7f83ff06e000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83ff26d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f83ff26d000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libbsd.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libbsd.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2007\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=85048, ...}) = 0
+17953 mmap(NULL, 2184240, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fee49000
+17953 mprotect(0x7f83fee5c000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83ff05c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7f83ff05c000
+17953 mmap(0x7f83ff05e000, 1072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83ff05e000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libX11-xcb.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\5\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=5808, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac37000
+17953 mmap(NULL, 2101304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fec47000
+17953 mprotect(0x7f83fec48000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fee47000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x7f83fee47000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libICE.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libICE.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20L\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=97960, ...}) = 0
+17953 mmap(NULL, 2207872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fea2b000
+17953 mprotect(0x7f83fea42000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fec41000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f83fec41000
+17953 mmap(0x7f83fec43000, 12416, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83fec43000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libSM.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libSM.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\33\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=30744, ...}) = 0
+17953 mmap(NULL, 2126192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fe823000
+17953 mprotect(0x7f83fe82a000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fea29000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f83fea29000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libwrap.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libwrap.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`/\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=36448, ...}) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac36000
+17953 mmap(NULL, 2133824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fe61a000
+17953 mprotect(0x7f83fe622000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fe821000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f83fe821000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libsndfile.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360g\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=479328, ...}) = 0
+17953 mmap(NULL, 2584384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fe3a3000
+17953 mprotect(0x7f83fe415000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fe615000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x72000) = 0x7f83fe615000
+17953 mmap(0x7f83fe618000, 8000, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83fe618000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libasyncns.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\23\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=18424, ...}) = 0
+17953 mmap(NULL, 2113848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fe19e000
+17953 mprotect(0x7f83fe1a2000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fe3a1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f83fe3a1000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac35000
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libuuid.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\26\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=18752, ...}) = 0
+17953 mmap(NULL, 2113960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fdf99000
+17953 mprotect(0x7f83fdf9d000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fe19c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f83fe19c000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libFLAC.so.8", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\217\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=244728, ...}) = 0
+17953 mmap(NULL, 2340072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fdd5d000
+17953 mprotect(0x7f83fdd97000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fdf97000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7f83fdf97000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libogg.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libogg.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\32\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=26640, ...}) = 0
+17953 mmap(NULL, 2122064, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fdb56000
+17953 mprotect(0x7f83fdb5c000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fdd5b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f83fdd5b000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac34000
+17953 open("/usr/lib64/libvorbis.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3206\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=178728, ...}) = 0
+17953 mmap(NULL, 2274072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fd92a000
+17953 mprotect(0x7f83fd955000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fdb54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7f83fdb54000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libvorbisenc.so.2", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200;\1\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=690128, ...}) = 0
+17953 mmap(NULL, 2785472, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fd681000
+17953 mprotect(0x7f83fd70e000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fd90d000, 118784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8c000) = 0x7f83fd90d000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3409\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=84528, ...}) = 0
+17953 mmap(NULL, 2189928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fd46a000
+17953 mprotect(0x7f83fd47d000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fd67d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13000) = 0x7f83fd67d000
+17953 mmap(0x7f83fd67f000, 6760, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83fd67f000
+17953 close(3)                          = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac33000
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac32000
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac31000
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac30000
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac2f000
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac2e000
+17953 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac2c000
+17953 arch_prctl(ARCH_SET_FS, 0x7f840ac2c780) = 0
+17953 mprotect(0x7f840a984000, 16384, PROT_READ) = 0
+17953 mprotect(0x7f83fd67d000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fdd5b000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8407a19000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fdb54000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fd90d000, 114688, PROT_READ) = 0
+17953 mprotect(0x7f83fdf97000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fe19c000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8405a4f000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fe3a1000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fe615000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f83fe821000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ff05c000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fec41000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fea29000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fee47000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ff26d000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840771c000, 4096, PROT_READ) = 0
+17953 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f840ac2b000
+17953 mprotect(0x7f8407d8d000, 40960, PROT_READ) = 0
+17953 mprotect(0x7f840539d000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840447a000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f84016f8000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8404a66000, 65536, PROT_READ) = 0
+17953 mprotect(0x7f8404ee9000, 57344, PROT_READ) = 0
+17953 mprotect(0x7f84046e0000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8404275000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8403f3c000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ffb0f000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ffd13000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8403d34000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840707e000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840390f000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8405837000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f84020f1000, 28672, PROT_READ) = 0
+17953 mprotect(0x7f8401e2f000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f8405602000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f84032a6000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ff47e000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ff689000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8406d44000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83ff908000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f84086f8000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f84099ca000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840954a000, 45056, PROT_READ) = 0
+17953 mprotect(0x7f840232f000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f84097ab000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840849b000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f84025c4000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f84027e8000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8402a0b000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f8402dcc000, 106496, PROT_READ) = 0
+17953 mprotect(0x7f8403058000, 20480, PROT_READ) = 0
+17953 mprotect(0x7f84036fd000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f84034ac000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8403b12000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8405c66000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8405e9e000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f8409be5000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f84072b9000, 12288, PROT_READ) = 0
+17953 mprotect(0x7f8409e35000, 12288, PROT_READ) = 0
+17953 mprotect(0x7f84060da000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f84062fc000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f8407503000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f840653c000, 12288, PROT_READ) = 0
+17953 mprotect(0x7f840690a000, 12288, PROT_READ) = 0
+17953 mprotect(0x7f8406b3e000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840a0b0000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840a39a000, 36864, PROT_READ) = 0
+17953 mprotect(0x7f840a5ee000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f840abff000, 12288, PROT_READ) = 0
+17953 mprotect(0x600000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f840ae25000, 4096, PROT_READ) = 0
+17953 munmap(0x7f840add5000, 322522)    = 0
+17953 set_tid_address(0x7f840ac2ca50)   = 17953
+17953 set_robust_list(0x7f840ac2ca60, 24) = 0
+17953 rt_sigaction(SIGRTMIN, {0x7f840583ebb0, [], SA_RESTORER|SA_SIGINFO, 0x7f8405849cb0}, NULL, 8) = 0
+17953 rt_sigaction(SIGRT_1, {0x7f840583ec40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f8405849cb0}, NULL, 8) = 0
+17953 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+17953 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+17953 brk(NULL)                         = 0x602000
+17953 brk(0x634000)                     = 0x634000
+17953 futex(0x7f840447b0c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17953 futex(0x7f8401bf3a8c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17953 clock_getres(CLOCK_MONOTONIC, {0, 1}) = 0
+17953 futex(0x7f8407d9a26c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17953 futex(0x7f8407d9a278, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17953 open("/dev/urandom", O_RDONLY|O_CLOEXEC) = 3
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 read(3, "\203\24\31\316", 4)      = 4
+17953 close(3)                          = 0
+17953 geteuid()                         = 100
+17953 getuid()                          = 100
+17953 futex(0x7f840820eb88, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+17953 open("/usr/lib64/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+17953 fstat(3, {st_mode=S_IFREG|0644, st_size=1899984, ...}) = 0
+17953 mmap(NULL, 1899984, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f83fd29a000
+17953 close(3)                          = 0
+17953 stat("/home/fb/.config/QtProject/qtlogging.ini", 0x7ffde2ae0230) = -1 ENOENT (No such file or directory)
+17953 stat("/etc/xdg/QtProject/qtlogging.ini", 0x7ffde2ae0230) = -1 ENOENT (No such file or directory)
+17953 stat("/proc/17953/exe", {st_mode=S_IFREG|0755, st_size=6048, ...}) = 0
+17953 lstat("/proc/17953/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+17953 lstat("/proc", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17953 lstat("/proc/17953", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+17953 lstat("/proc/17953/exe", {st_mode=S_IFLNK|0777, st_size=0, ...}) = 0
+17953 readlink("/proc/17953/exe", "/usr/bin/kcalc", 4095) = 14
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=114688, ...}) = 0
+17953 lstat("/usr/bin/kcalc", {st_mode=S_IFREG|0755, st_size=6048, ...}) = 0
+17953 stat("/usr/bin/qt.conf", 0x7ffde2ae0100) = -1 ENOENT (No such file or directory)
+17953 stat("/usr/bin/qt.conf", 0x7ffde2adfad0) = -1 ENOENT (No such file or directory)
+17953 stat("/usr/lib64/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=163840, ...}) = 0
+17953 lstat("/usr/lib64/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=114688, ...}) = 0
+17953 stat("/usr/bin", {st_mode=S_IFDIR|0755, st_size=114688, ...}) = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=163840, ...}) = 0
+17953 lstat("/usr/lib64/kde4", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+17953 lstat("/usr/lib64/kde4/plugins", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 stat("/usr/lib64/qt5/plugins/platforms/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 open("/usr/lib64/qt5/plugins/platforms", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+17953 fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 statfs("/usr/lib64/qt5/plugins/platforms/", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=206391914, f_bfree=176699857, f_bavail=166210001, f_files=52428800, f_ffree=50434571, f_fsid={778218635, 1387785381}, f_namelen=255, f_frsize=4096, f_flags=1056}) = 0
+17953 getdents(3, /* 6 entries */, 32768) = 200
+17953 getdents(3, /* 0 entries */, 32768) = 0
+17953 close(3)                          = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=163840, ...}) = 0
+17953 lstat("/usr/lib64/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms/KWinQpaPlugin.so", {st_mode=S_IFREG|0755, st_size=371144, ...}) = 0
+17953 open("/usr/lib64/qt5/plugins/platforms/KWinQpaPlugin.so", O_RDONLY|O_CLOEXEC) = 3
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=371144, ...}) = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=371144, ...}) = 0
+17953 mmap(NULL, 371144, PROT_READ, MAP_SHARED, 3, 0) = 0x7f83fd23f000
+17953 close(3)                          = 0
+17953 munmap(0x7f83fd23f000, 371144)    = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=163840, ...}) = 0
+17953 lstat("/usr/lib64/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms/libqminimal.so", {st_mode=S_IFREG|0755, st_size=42824, ...}) = 0
+17953 open("/usr/lib64/qt5/plugins/platforms/libqminimal.so", O_RDONLY|O_CLOEXEC) = 3
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=42824, ...}) = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=42824, ...}) = 0
+17953 mmap(NULL, 42824, PROT_READ, MAP_SHARED, 3, 0) = 0x7f840ae19000
+17953 close(3)                          = 0
+17953 munmap(0x7f840ae19000, 42824)     = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=163840, ...}) = 0
+17953 lstat("/usr/lib64/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms/libqoffscreen.so", {st_mode=S_IFREG|0755, st_size=148104, ...}) = 0
+17953 open("/usr/lib64/qt5/plugins/platforms/libqoffscreen.so", O_RDONLY|O_CLOEXEC) = 3
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=148104, ...}) = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=148104, ...}) = 0
+17953 mmap(NULL, 148104, PROT_READ, MAP_SHARED, 3, 0) = 0x7f840adff000
+17953 close(3)                          = 0
+17953 munmap(0x7f840adff000, 148104)    = 0
+17953 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64", {st_mode=S_IFDIR|0755, st_size=163840, ...}) = 0
+17953 lstat("/usr/lib64/qt5", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+17953 lstat("/usr/lib64/qt5/plugins/platforms/libqxcb.so", {st_mode=S_IFREG|0755, st_size=9648, ...}) = 0
+17953 open("/usr/lib64/qt5/plugins/platforms/libqxcb.so", O_RDONLY|O_CLOEXEC) = 3
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=9648, ...}) = 0
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=9648, ...}) = 0
+17953 mmap(NULL, 9648, PROT_READ, MAP_SHARED, 3, 0) = 0x7f840ae21000
+17953 close(3)                          = 0
+17953 munmap(0x7f840ae21000, 9648)      = 0
+17953 stat("/usr/bin/platforms/.", 0x7ffde2adfda0) = -1 ENOENT (No such file or directory)
+17953 stat("/usr/lib64/kde4/plugins/platforms/.", 0x7ffde2adfda0) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/qt5/plugins/platforms/libqxcb.so", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=9648, ...}) = 0
+17953 mmap(NULL, 11736, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f840ae21000
+17953 mmap(0x7f840ae23000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f840ae23000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libQt5XcbQpa.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+17953 fstat(3, {st_mode=S_IFREG|0644, st_size=322522, ...}) = 0
+17953 mmap(NULL, 322522, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f83fd24b000
+17953 close(3)                          = 0
+17953 open("/usr/lib64/libQt5XcbQpa.so.5", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=948344, ...}) = 0
+17953 mmap(NULL, 947984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fd163000
+17953 mmap(0x7f83fd243000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe0000) = 0x7f83fd243000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libXi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libXi.so.6", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\"\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=63696, ...}) = 0
+17953 mmap(NULL, 2159272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fcf53000
+17953 mprotect(0x7f83fcf62000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fd161000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f83fd161000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-render-util.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-render-util.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\26\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=14336, ...}) = 0
+17953 mmap(NULL, 2109848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fcd4f000
+17953 mprotect(0x7f83fcd52000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fcf51000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f83fcf51000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-render.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-render.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\3405\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=38872, ...}) = 0
+17953 mmap(NULL, 2134216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fcb45000
+17953 mprotect(0x7f83fcb4e000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fcd4d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f83fcd4d000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-image.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-image.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\21\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=18424, ...}) = 0
+17953 mmap(NULL, 2113848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fc940000
+17953 mprotect(0x7f83fc944000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fcb43000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f83fcb43000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-icccm.so.4", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-icccm.so.4", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200 \0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=18288, ...}) = 0
+17953 mmap(NULL, 2113784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fc73b000
+17953 mprotect(0x7f83fc73f000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fc93e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f83fc93e000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-sync.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000 \0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=26584, ...}) = 0
+17953 mmap(NULL, 2121928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fc534000
+17953 mprotect(0x7f83fc539000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fc739000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f83fc739000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-xfixes.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-xfixes.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0(\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=30600, ...}) = 0
+17953 mmap(NULL, 2125944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fc32c000
+17953 mprotect(0x7f83fc332000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fc532000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f83fc532000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-shm.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-shm.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\r\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=14216, ...}) = 0
+17953 mmap(NULL, 2109560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fc128000
+17953 mprotect(0x7f83fc12a000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fc32a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f83fc32a000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-randr.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-randr.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240[\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=55352, ...}) = 0
+17953 mmap(NULL, 2150696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fbf1a000
+17953 mprotect(0x7f83fbf26000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fc126000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7f83fc126000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-shape.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-shape.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\17\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=14200, ...}) = 0
+17953 mmap(NULL, 2109544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fbd16000
+17953 mprotect(0x7f83fbd19000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fbf18000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f83fbf18000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-xkb.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-xkb.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\231\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=112984, ...}) = 0
+17953 mmap(NULL, 2208328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fbafa000
+17953 mprotect(0x7f83fbb14000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fbd14000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7f83fbd14000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxkbcommon-x11.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxkbcommon-x11.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`(\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=31328, ...}) = 0
+17953 mmap(NULL, 2126592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fb8f2000
+17953 mprotect(0x7f83fb8f9000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fbaf8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f83fbaf8000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxkbcommon.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxkbcommon.so.0", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pC\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=260592, ...}) = 0
+17953 mmap(NULL, 2355856, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fb6b2000
+17953 mprotect(0x7f83fb6ef000, 2097152, PROT_NONE) = 0
+17953 mmap(0x7f83fb8ef000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3d000) = 0x7f83fb8ef000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libfontconfig.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libfontconfig.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pm\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=273576, ...}) = 0
+17953 mmap(NULL, 2369544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fb46f000
+17953 mprotect(0x7f83fb4ac000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fb6ab000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3c000) = 0x7f83fb6ab000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libxcb-util.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+17953 open("/usr/lib64/libxcb-util.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200%\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0755, st_size=22568, ...}) = 0
+17953 mmap(NULL, 2117912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fb269000
+17953 mprotect(0x7f83fb26e000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fb46d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f83fb46d000
+17953 close(3)                          = 0
+17953 open("/oracle/app/oracle/product/12.1.0/dbhome_1/lib/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+17953 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240:\0\0\0\0\0\0"..., 832) = 832
+17953 fstat(3, {st_mode=S_IFREG|0777, st_size=408282, ...}) = 0
+17953 mmap(NULL, 2236496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f83fb046000
+17953 mprotect(0x7f83fb067000, 2093056, PROT_NONE) = 0
+17953 mmap(0x7f83fb266000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f83fb266000
+17953 close(3)                          = 0
+17953 mprotect(0x7f83fb46d000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fb6ab000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f83fb8ef000, 8192, PROT_READ) = 0
+17953 mprotect(0x7f83fbd14000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fbaf8000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fbf18000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fc126000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fc32a000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fc532000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fc739000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fc93e000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fcb43000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fcd4d000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fcf51000, 4096, PROT_READ) = 0
+17953 mprotect(0x7f83fd161000, 4096, PROT_READ) = 0
+17953 munmap(0x7f83fd24b000, 322522)    = 0
+17953 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3
+17953 connect(3, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, 20) = 0
+17953 getpeername(3, {sa_family=AF_LOCAL, sun_path=@"/tmp/.X11-unix/X0"}, [20]) = 0
+17953 uname({sysname="Linux", nodename="cascao", ...}) = 0
+17953 access("/tmp/xauth-100-_0", R_OK) = -1 ENOENT (No such file or directory)
+17953 fcntl(3, F_GETFL)                 = 0x2 (flags O_RDWR)
+17953 fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 poll([{fd=3, events=POLLIN|POLLOUT}], 1, -1) = 1 ([{fd=3, revents=POLLOUT}])
+17953 writev(3, [{"l\0\v\0\0\0\0\0\0\0\0\0", 12}, {"", 0}], 2) = 12
+17953 recvfrom(3, 0x625610, 8, 0, NULL, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+17953 poll([{fd=3, events=POLLIN}], 1, -1) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+17953 recvfrom(3, "\0\26\v\0\0\0\6\0", 8, 0, NULL, NULL) = 8
+17953 recvfrom(3, "No protocol specified\n\0\0", 24, 0, NULL, NULL) = 24
+17953 write(2, "No protocol specified\n", 22) = 22
+17953 shutdown(3, SHUT_RDWR)            = 0
+17953 close(3)                          = 0
+17953 open("/dev/tty", O_RDONLY|O_CLOEXEC) = 3
+17953 fcntl(3, F_SETFD, FD_CLOEXEC)     = 0
+17953 close(3)                          = 0
+17953 write(2, "QXcbConnection: Could not connec"..., 50) = 50
+17953 rt_sigprocmask(SIG_UNBLOCK, [ABRT], NULL, 8) = 0
+17953 tgkill(17953, 17953, SIGABRT)     = 0
+17953 --- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=17953, si_uid=100} ---
+17953 +++ killed by SIGABRT +++

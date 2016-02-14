@@ -14,36 +14,46 @@
 <script src="../lib/angular-locale_pt-br.js"></script>
 
 <script type="text/javascript">
-  var app = angular.module("listaTelefonica",["ngMessages"]);
-  app.controller("listaTelefonicaCtrl", function($scope){
+  
+ var app = angular.module("listaTelefonica",["ngMessages"]);
+
+ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope, $http) {
+  
   $scope.app="Lista Telefonica";
-  $scope.contatos= [
-         {nome: "Pedro",telefone:"999911111",data:new Date(),cor:"black"},
-         {nome: "Ana",telefone:"999911133",data:new Date(),cor:"yellow"},
-         {nome: "Maria",telefone:"999911666",data:new Date(),cor:"red"}
-  ];
-  $scope.adicionarContato = function(contato) {
+  $scope.contatos = [];
+  $scope.operadoras = [];
+
+   var carregarContatos = function () {
+        $http.get("http://cascao:10000/016-lista.telefonica/backend/contatos.php").success(function (data) {
+          $scope.contatos = data;
+        }).error(function (data, status) {
+          $scope.message = "Aconteceu um problema: " + data;
+        });
+      };
+
+
+   var carregarOperadoras = function () {
+        $http.get("http://cascao:10000/016-lista.telefonica/backend/operadoras.php").success(function (data) {
+          $scope.operadoras = data;
+        });
+    };      
+ 
+    $scope.adicionarContato = function(contato) {
      $scope.contatos.push(angular.copy(contato));
      delete $scope.contato;
      $scope.contatoForm.$setPristine();
-  }
- $scope.operadoras = [
-       {nome: "Oi",codigo:14, categoria: "Celular", preco:2},
-       {nome: "Vivo",codigo:15, categoria: "Celular", preco:1},
-       {nome: "Tim",codigo:41, categoria: "Celular", preco:3},
-       {nome: "GVT",codigo:25, categoria: "Fixo", preco:1},
-       {nome: "Embratel",codigo:21, categoria: "Fixo", preco:2},
- ];
- $scope.classe="selecionado";
- $scope.apagarContatos = function(contatos) {
- // console.log( contatos);
-  var contatosNaoSelecionados = contatos.filter( function (contato) {
-    if (!contato.selecionado) return contato;
-  });
-  console.log( contatosNaoSelecionados);
-  $scope.contatos=contatosNaoSelecionados;
- }
- $scope.isContatoSelecionado = function(contatos) {
+    }
+ 
+   $scope.classe="selecionado";
+   $scope.apagarContatos = function(contatos) {
+    // console.log( contatos);
+    var contatosNaoSelecionados = contatos.filter( function (contato) {
+      if (!contato.selecionado) return contato;
+    });
+    console.log( contatosNaoSelecionados);
+    $scope.contatos=contatosNaoSelecionados;
+   }
+   $scope.isContatoSelecionado = function(contatos) {
       //console.log( contatos);
       var selec =
       contatos.some (function(contato) {
@@ -51,13 +61,15 @@
       });
       console.log( "Selecionado ? "+selec);
       return selec;
-  }
+   }
 
   $scope.ordenarPor = function(campo) {
     $scope.criterioDeOrdenacao=campo;
     $scope.direcaoDaOrdenacao=!$scope.direcaoDaOrdenacao;
   }
 
+  carregarContatos();
+  carregarOperadoras();
 });
   </script>
 </head>
@@ -81,9 +93,9 @@
     <th></th>
    </tr>
 
-   <tr ng-class="{ 'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos | limitTo:20| filter:criterioDeBusca | orderBy: criterioDeOrdenacao: direcaoDaOrdenacao  ">
+   <tr ng-class="{ 'selecionado negrito': contato.selecionado}" ng-repeat="contato in contatos |   filter:criterioDeBusca | orderBy: criterioDeOrdenacao: direcaoDaOrdenacao  ">
     <td><input type="checkbox" ng-model="contato.selecionado" /></td>
-    <td>{{contato.nome | uppercase | limitTo:5 }}</td>
+    <td>{{contato.nome}}</td>
     <td>{{contato.telefone}}</td>
     <td>{{contato.operadora.nome | lowercase}}</td>
     <td>{{contato.data | date: 'EEEE MMMM dd/MM/yyyy HH:mm'}}</td>
@@ -119,9 +131,11 @@
   <button ng-click="adicionarContato(contato)" ng-disabled="contatoForm.$invalid" class="btn btn-primary btn-block">Adicionar contato</button>
   <button ng-click="apagarContatos(contatos)"  class="btn btn-danger btn-block" ng-if="isContatoSelecionado(contatos)">Apagar contatos</button>
   {{contato}}
- {{100 | number:10}}
+
  </div>
-<div ng-include="'footer.html'"/>
+
+<a href="backend/contatos.php">contatos backend</a>
+<a href="backend/operadoras.php">operadoras backend</a>
 
 <br/><br/>
 <hr/>
@@ -130,3 +144,5 @@ Fonte:
 <a href="http://pt.slideshare.net/rodrigobranas/mdulo-6-automatizando-os-testes-e-o-workflow-do-projeto-angularjs">Slides</a>
 </body>
 </html>
+
+<div ng-include="'footer.html'"/>
