@@ -6,7 +6,9 @@ $contato = json_decode($post);
 if(!empty($post)){
 	$contato = get_object_vars($contato);
 	$contato['operadora'] = get_object_vars($contato['operadora']);
-	$array_contatos = unserialize($_COOKIE['api_contatos']);
+	if (isset($_COOKIE['api_contatos'])) {
+	  $array_contatos = unserialize($_COOKIE['api_contatos']);
+    } 
 	$contato['id'] = count($array_contatos)+1;
 	$array_contatos[] = $contato;
 	setcookie('api_contatos', serialize($array_contatos));
