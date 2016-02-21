@@ -24,7 +24,7 @@
   $scope.operadoras = [];
 
    var carregarContatos = function () {
-        $http.get("http://cascao:10000/017-lista.telefonica/backend/contatos.php").success(function (data) {
+        $http.get("http://cascao:10000/017-lista.telefonica-http-post/backend/contatos.php").success(function (data) {
           $scope.contatos = data;
         }).error(function (data, status) {
           $scope.message = "Aconteceu um problema: " + data;
@@ -33,7 +33,7 @@
 
 
    var carregarOperadoras = function () {
-        $http.get("http://cascao:10000/017-lista.telefonica/backend/operadoras.php").success(function (data) {
+        $http.get("http://cascao:10000/017-lista.telefonica-http-post/backend/operadoras.php").success(function (data) {
           $scope.operadoras = data;
         });
     };      
@@ -41,7 +41,7 @@
 
     $scope.adicionarContato = function (contato) {
         contato.data = new Date();
-        $http.post("http://cascao:10000/017-lista.telefonica/backend/addContatos.php", contato).success(function (data) {
+        $http.post("http://cascao:10000/017-lista.telefonica-http-post/backend/addContatos.php", contato).success(function (data) {
           delete $scope.contato;
           $scope.contatoForm.$setPristine();
           carregarContatos();
